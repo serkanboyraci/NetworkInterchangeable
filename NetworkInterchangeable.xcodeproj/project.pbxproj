@@ -13,7 +13,7 @@
 		602713AE29F04CFA00886597 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 602713AD29F04CFA00886597 /* Preview Assets.xcassets */; };
 		602713B629F04D8400886597 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602713B529F04D8400886597 /* UserModel.swift */; };
 		602713B929F04D9F00886597 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602713B829F04D9F00886597 /* WebService.swift */; };
-		602713BC29F04DB800886597 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602713BB29F04DB800886597 /* ViewModel.swift */; };
+		602713BE29F749A000886597 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602713BD29F749A000886597 /* UserViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,7 +24,7 @@
 		602713AD29F04CFA00886597 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		602713B529F04D8400886597 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		602713B829F04D9F00886597 /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
-		602713BB29F04DB800886597 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		602713BD29F749A000886597 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +95,7 @@
 		602713BA29F04DA300886597 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				602713BB29F04DB800886597 /* ViewModel.swift */,
+				602713BD29F749A000886597 /* UserViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -170,7 +170,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				602713BC29F04DB800886597 /* ViewModel.swift in Sources */,
+				602713BE29F749A000886597 /* UserViewModel.swift in Sources */,
 				602713A929F04CF800886597 /* ContentView.swift in Sources */,
 				602713B629F04D8400886597 /* UserModel.swift in Sources */,
 				602713B929F04D9F00886597 /* WebService.swift in Sources */,
