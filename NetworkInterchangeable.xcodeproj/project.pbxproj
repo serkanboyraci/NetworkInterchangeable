@@ -14,6 +14,7 @@
 		602713B629F04D8400886597 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602713B529F04D8400886597 /* UserModel.swift */; };
 		602713B929F04D9F00886597 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602713B829F04D9F00886597 /* WebService.swift */; };
 		602713BE29F749A000886597 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602713BD29F749A000886597 /* UserViewModel.swift */; };
+		602713C329F74CC600886597 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602713C229F74CC600886597 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		602713B529F04D8400886597 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		602713B829F04D9F00886597 /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
 		602713BD29F749A000886597 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		602713C229F74CC600886597 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 		602713A529F04CF800886597 /* NetworkInterchangeable */ = {
 			isa = PBXGroup;
 			children = (
+				602713BF29F74C9900886597 /* Constants */,
 				602713BA29F04DA300886597 /* ViewModel */,
 				602713B729F04D8900886597 /* Service */,
 				602713B429F04D6400886597 /* Model */,
@@ -98,6 +101,14 @@
 				602713BD29F749A000886597 /* UserViewModel.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		602713BF29F74C9900886597 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				602713C229F74CC600886597 /* Constants.swift */,
+			);
+			path = Constants;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -175,6 +186,7 @@
 				602713B629F04D8400886597 /* UserModel.swift in Sources */,
 				602713B929F04D9F00886597 /* WebService.swift in Sources */,
 				602713A729F04CF800886597 /* NetworkInterchangeableApp.swift in Sources */,
+				602713C329F74CC600886597 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
