@@ -5,7 +5,7 @@
 //  Created by Ali serkan Boyracı  on 25.04.2023.
 //
 
-import Foundation]
+import Foundation
 
 
 class UserListViewModel : ObservableObject {
@@ -28,7 +28,7 @@ class UserListViewModel : ObservableObject {
 struct UserViewModel {
     
     let user : User
-    let id : Int {
+    var id : Int {
         user.id
     }
     

@@ -7,4 +7,11 @@
 
 import Foundation
 
-struct
+struct Constants {
+    
+    struct Urls {
+        static let baseUrl = "https://jsonplaceholder.typicode.com"
+        static let userExtension = "\(baseUrl)/users"
+    }
+}
+
