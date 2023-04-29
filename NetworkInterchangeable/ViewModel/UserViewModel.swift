@@ -16,7 +16,10 @@ class UserListViewModel : ObservableObject {
     func downloadUsers() async {
         
         do {
-            let users = try await webservice.download(<#T##resource: String##String#>)
+            let users = try await webservice.download(Constants.Urls.userExtension)
+            DispatchQueue.main.async {
+                self.userList = users.map(UserViewModel.init)
+            }
         } catch {
             print(error)
         }
@@ -33,10 +36,14 @@ struct UserViewModel {
     }
     
     var name : String {
+        user.name
+    }
+    
+    var username : String {
         user.username
     }
     
-    var emmail : String {
+    var email : String {
         user.email
     }
     
