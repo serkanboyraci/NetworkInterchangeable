@@ -15,6 +15,7 @@
 		602713B929F04D9F00886597 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602713B829F04D9F00886597 /* WebService.swift */; };
 		602713BE29F749A000886597 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602713BD29F749A000886597 /* UserViewModel.swift */; };
 		602713C329F74CC600886597 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602713C229F74CC600886597 /* Constants.swift */; };
+		602713C52A00476D00886597 /* user.json in Resources */ = {isa = PBXBuildFile; fileRef = 602713C42A00476D00886597 /* user.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		602713B829F04D9F00886597 /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
 		602713BD29F749A000886597 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
 		602713C229F74CC600886597 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		602713C42A00476D00886597 /* user.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = user.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +45,7 @@
 		6027139A29F04CF800886597 = {
 			isa = PBXGroup;
 			children = (
+				602713C42A00476D00886597 /* user.json */,
 				602713A529F04CF800886597 /* NetworkInterchangeable */,
 				602713A429F04CF800886597 /* Products */,
 			);
@@ -169,6 +172,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				602713C52A00476D00886597 /* user.json in Resources */,
 				602713AE29F04CFA00886597 /* Preview Assets.xcassets in Resources */,
 				602713AB29F04CFA00886597 /* Assets.xcassets in Resources */,
 			);
