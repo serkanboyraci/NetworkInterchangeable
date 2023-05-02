@@ -13,7 +13,5 @@ class LocalService {
         guard let path = Bundle.main.path(forResource: resource, ofType: "json") else {
             fatalError("Resource not found.")
         }
-        
-        let 
     }
 }
