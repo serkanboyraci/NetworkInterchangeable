@@ -10,7 +10,6 @@ import Foundation
 class LocalService : NetworkService {
     var type: String = "Local"
     
-    
     func download(_ resource: String) async throws -> [User] {
         
         guard let path = Bundle.main.path(forResource: resource, ofType: "json") else {
