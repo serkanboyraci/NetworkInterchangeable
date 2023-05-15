@@ -47,7 +47,6 @@
 		6027139A29F04CF800886597 = {
 			isa = PBXGroup;
 			children = (
-				602713C42A00476D00886597 /* users.json */,
 				602713A529F04CF800886597 /* NetworkInterchangeable */,
 				602713A429F04CF800886597 /* Products */,
 			);
@@ -64,6 +63,7 @@
 		602713A529F04CF800886597 /* NetworkInterchangeable */ = {
 			isa = PBXGroup;
 			children = (
+				602713C42A00476D00886597 /* users.json */,
 				602713BF29F74C9900886597 /* Constants */,
 				602713BA29F04DA300886597 /* ViewModel */,
 				602713B729F04D8900886597 /* Service */,
