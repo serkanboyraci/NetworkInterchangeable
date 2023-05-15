@@ -13,7 +13,7 @@ struct ContentView: View {
         UserListViewModel
     
     init() {
-        self.userListViewModel = UserListViewModel(service: LocalService)
+        self.userListViewModel = UserListViewModel(service: LocalService())
     }
     
     

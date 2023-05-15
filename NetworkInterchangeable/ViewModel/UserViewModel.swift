@@ -20,8 +20,16 @@ class UserListViewModel : ObservableObject {
     
     func downloadUsers() async {
         
+        var resource = ""
+        
+        if service.type == "Web" {
+            resource = Constants.Urls.userExtension
+        } else {
+            resource = Constants.Paths.baseUrl
+        }
+        
         do {
-            let users = try await service.download(Constants.Urls.userExtension)
+            let users = try await service.download(resource)
             DispatchQueue.main.async {
                 self.userList = users.map(UserViewModel.init)
             }
