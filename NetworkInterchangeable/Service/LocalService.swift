@@ -7,7 +7,7 @@
 
 import Foundation
 
-class LocalService {
+class LocalService : NetworkService {
     
     func download(_ resource: String) async throws -> [User] {
         guard let path = Bundle.main.path(forResource: resource, ofType: "json") else {

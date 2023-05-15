@@ -17,6 +17,7 @@
 		602713C329F74CC600886597 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602713C229F74CC600886597 /* Constants.swift */; };
 		602713C52A00476D00886597 /* users.json in Resources */ = {isa = PBXBuildFile; fileRef = 602713C42A00476D00886597 /* users.json */; };
 		602713C72A0049FA00886597 /* LocalService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602713C62A0049FA00886597 /* LocalService.swift */; };
+		604DC73E2A12CAEB00F68883 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604DC73D2A12CAEB00F68883 /* NetworkService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		602713C229F74CC600886597 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		602713C42A00476D00886597 /* users.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = users.json; sourceTree = "<group>"; };
 		602713C62A0049FA00886597 /* LocalService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalService.swift; sourceTree = "<group>"; };
+		604DC73D2A12CAEB00F68883 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			children = (
 				602713B829F04D9F00886597 /* WebService.swift */,
 				602713C62A0049FA00886597 /* LocalService.swift */,
+				604DC73D2A12CAEB00F68883 /* NetworkService.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -190,6 +193,7 @@
 			files = (
 				602713BE29F749A000886597 /* UserViewModel.swift in Sources */,
 				602713A929F04CF800886597 /* ContentView.swift in Sources */,
+				604DC73E2A12CAEB00F68883 /* NetworkService.swift in Sources */,
 				602713B629F04D8400886597 /* UserModel.swift in Sources */,
 				602713B929F04D9F00886597 /* WebService.swift in Sources */,
 				602713A729F04CF800886597 /* NetworkInterchangeableApp.swift in Sources */,

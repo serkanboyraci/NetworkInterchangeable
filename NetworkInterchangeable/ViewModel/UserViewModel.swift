@@ -11,12 +11,17 @@ import Foundation
 class UserListViewModel : ObservableObject {
     @Published var userList = [UserViewModel]()
     
-    let webservice = Webservice()
+    //let webservice = Webservice()
+    
+    private var service : NetworkService
+    init(service: NetworkService) {
+        self.service = service
+    }
     
     func downloadUsers() async {
         
         do {
-            let users = try await webservice.download(Constants.Urls.userExtension)
+            let users = try await service.download(Constants.Urls.userExtension)
             DispatchQueue.main.async {
                 self.userList = users.map(UserViewModel.init)
             }
